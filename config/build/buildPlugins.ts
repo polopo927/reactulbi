@@ -17,6 +17,7 @@ export const buildPlugins = ({isDev, paths}: BuildOptions):webpack.WebpackPlugin
 		}),
 		new webpack.DefinePlugin({
 			__IS_DEV__: JSON.stringify(isDev)
-		})
+		}),
+		new webpack.HotModuleReplacementPlugin()
 	]
 }
