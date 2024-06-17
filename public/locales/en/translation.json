@@ -1,6 +1,8 @@
 {
-	"Тестовый пример": "Test example",
-	"Перевод": "Translate",
-	"Главная страница":"Main page",
-	"Язык": "Language"
+  "Тестовый пример": "Test example",
+  "Перевод": "Translate",
+  "Главная страница": "Main page",
+  "Язык": "English",
+  "новый перевод": "new translate",
+  "Страница не найдена": "Page not found"
 }
