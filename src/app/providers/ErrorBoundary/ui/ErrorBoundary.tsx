@@ -2,11 +2,11 @@ import React, { ErrorInfo, ReactNode, Suspense } from 'react';
 import { ErrorPage } from 'widgets/ErrorPage/ui/ErrorPage';
 
 interface ErrorBoundaryProps {
-  children: ReactNode;
+    children: ReactNode;
 }
 
 interface ErrorBoundaryState {
-  hasError: boolean;
+    hasError: boolean;
 }
 
 class ErrorBoundary
