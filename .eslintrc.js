@@ -25,6 +25,7 @@ module.exports = {
   rules: {
     'react/jsx-indent': [1, 2],
     'react/jsx-indent-props': [1, 2],
+    'linebreak-style': ['error', 'unix'],
     indent: [1, 2],
     'react/jsx-filename-extension': [
       2,
@@ -44,7 +45,7 @@ module.exports = {
     'i18next/no-literal-string': ['error', { markupOnly: true }],
     'max-len': ['error', {
       ignoreComments: true,
-      code: 100
+      code: 100,
     }],
   },
   globals: {
